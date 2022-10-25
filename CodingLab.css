@@ -1,0 +1,483 @@
+body{
+   left: 0%;
+   top: 0%;
+    margin: 0%;
+    padding: 0%;
+    font-family: metro;
+    font-size: 14px;
+    /* background-color: rgb(233, 228, 228); */
+}
+.coding-dashboard{
+    background-color: rgb(23, 23, 94);
+    height: 100vh;
+    /* position: fixed; */
+    width: 200px;
+    
+}
+.codingLab{
+    height: 95px;
+    width: 200px;
+    /* background-color: red; */
+    display: flex;
+}
+.coding-upper{
+    width: 109px;
+    height: 38px;
+    margin-top: 10px;
+    margin-left: 4px;
+
+}
+.coding-upper p{
+    color: white;
+    font-size: 22px;
+    margin-top: 25px;
+    margin-left: 0px;
+}
+.Dashboard_product{
+    display: flex;
+    height: 48px;
+    width: 200px; 
+    text-align: center;
+}
+.Dashboard5{
+    font-size: 18px;
+    display: flex;
+    height: 48px;
+    width: 100%;
+    color: white;
+}
+.Dashboard5 p{
+    margin-left: centre;
+    margin-left: 10px;
+}
+.Dashboard_product:hover{
+    background-color: rgb(6, 6, 70);
+}
+.logo_of_dashboard{
+    width: 15px;
+    height: 15px;
+    margin-left: 47px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+} 
+.logo_of_dashboard img{
+    filter: brightness(0%) invert(100%);
+    height: 100%;
+    width: 100%;
+}
+.Team{
+    display: flex;
+    height: 48px;
+    width: 200px;
+}
+.team-all{
+    margin-top: 17px;
+    color: white;
+    margin-left: 7px;
+    font-size: 18px;
+}
+.Team:hover{
+    background-color: rgb(6, 6, 70);
+    color: white;
+}
+.logout{
+    height: 48px;
+    width: 200px;
+    display: flex;
+    margin-top: 0px;
+}
+.log{
+    margin-top: 13px;
+    color: white;
+    margin-left: 10px;
+    font-size: 18px;
+}
+.logout:hover{
+    background-color: rgb(6, 6, 70);
+    color: white;
+}
+.logout54{
+    width: 15px;
+    height: 15px;
+    margin-top: 16px;
+    margin-left: 10px;
+}
+.logout54 img{
+    filter: brightness(0%) invert(100%);
+    height: 100%;
+    width: 100%;
+}
+.header-main{
+    height: 77px;
+    width: 85.3%;
+    /* background-color: aquamarine; */
+    margin-top: -626px;
+    margin-left: 200px;
+    box-shadow: 3px 0px 4px 2px gray;
+}
+.search-type input{
+    margin-left: 320px;
+    width: 450px;
+    height: 50px;
+    margin-top: 10px;
+    background-color: rgb(243, 243, 243);
+    border-radius: 5px;
+    font-size: 15px;
+    /* border: 10px gray; */
+}
+.search-type button{
+    width: 100px;
+    height: 50px;
+    margin-top: -0px;
+    margin-right: 10px;
+    cursor: pointer;
+
+}
+  .dashboard-head{
+    margin-top: -40px;
+    margin-left: 100px;
+    font-size: 25px;
+    /* background-color: black; */
+  }
+  /* .logo-of-dashboard{
+    width: 15px;
+    height: 15px;
+    /* background-color: black; */
+    /* margin-top: -35px;
+    margin-left: 60px;
+  } */  /* .logo-of-dashboard img{
+    width: 100%;
+    /* filter: brightness(1) invert(0); */
+    /* height: 100%; */
+   /* */ 
+.id-box{
+    height: 48px;
+    width: 130px;
+    background-color: rgb(212, 211, 211);
+    margin-left: 1000px;
+    margin-top: -40px;
+    border-radius: 6px;
+    display: flex;
+  }
+  .prem{
+    margin-left: 30px;
+    margin-top: 15px;
+    color: rgb(216, 68, 68);
+  }
+  .id-box:hover{
+      background-color: rgb(201, 165, 235);
+      color: white;
+      cursor: pointer;
+  }
+  .count{
+    width: 1166px;
+    background-color: rgb(243, 243, 243);
+    height: 150px;
+    margin-left: 200px;
+    margin-top: 0px;
+    display: flex;
+    box-shadow: 0px 0px 2px 0px gray;
+  }
+  .total-order34{
+    height: 100px;
+    width: 250px;
+    background-color: white;
+    margin-left: 30px;
+    border-radius: 10px;
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+  }
+  .image-cartshopping{
+    height: 50px;
+    width: 65px;
+    margin-left: 130px;
+    margin-top: -70px;
+    display: flex;
+    background-color: white;
+
+  }
+  .image-cartshopping img{
+    width: 100%;
+    height: 100%;
+  }
+  .number-letter{
+    /* flex-direction: row; */
+    margin-top: 16px;
+    margin-left: 25px;
+    font-size: 15px;
+}
+.number-digits{
+    font-size: 30px;
+    margin-top: 0px;
+    margin-left: 23px;
+}
+.number-digits p{
+    margin-top: 0px;
+    margin-left: 0px;
+    font-size: 14px;
+}
+.details-recent{
+    border-radius: 10px;
+    width: 720px;
+    height: 380px;
+    /* background-color: red; */
+    margin-top: 1px;
+    /* margin-right: 500px; */
+    margin-left: 229px;
+    flex-direction: column;
+    display: flex;
+    box-shadow: 0px 0px 531px -64px grey;
+}
+.recent-product{
+    font-size: 22px;
+    margin-top: 20px;
+    margin-left: 24px;
+    font-family: sans-serif;
+}
+.date-common{
+    display: flex;
+    margin-top: 10px;
+    font-size: 18px;
+}
+.date-details{
+    display: flex;
+    margin-top: 15px;
+    /* margin-left: 0px; */
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.customer-name{
+    display: flex;
+    margin-top: -310px;
+    font-size: 18px;
+    margin-left: 185px;
+}
+.customer-name2{
+    margin-left: 184px;
+    display: flex;
+    margin-top: 15px;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.sales-detail{
+    display: flex;
+    margin-top: -310px;
+    font-size: 18px;
+    margin-left: 345px;
+}
+.sales-details5{
+    margin-left: 345px;
+    display: flex;
+    margin-top: 15px;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.total-details{
+    
+    display: flex;
+    margin-top: -310px;
+    font-size: 18px;
+    margin-left: 520px;
+}
+.total-price{
+    margin-left: 520px;
+    display: flex;
+    margin-top: 15px;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.seling-product{
+    display: flex;
+        border-radius: 10px;
+        width: 354px;
+        height: 380px;
+        background-color: white;
+        margin-top: -380px;
+        margin-left: 970px;
+        flex-direction: column;
+        display: flex;
+        box-shadow: 0px 0px 531px -64px grey;
+}
+.seling-header{
+    color: brown;
+    font-size: 22px;
+    margin-top: 20px;
+    margin-left: 24px;
+    font-family: sans-serif;
+}
+.product-name{
+    margin-left: 50px;
+    display: flex;
+    /* margin-top: -0px; */
+    margin-top: -46px;
+    font-size: 19px;
+    width: 155px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.image-c{
+    height: 20px;
+    width: 20px;
+    margin-top: 37px;
+    margin-left: 30px;
+}
+.image-c img{
+    height: 100%;
+    width: 100%;
+}
+.pic-of-sunglasses{
+    width: 40px;
+    height: 60px;
+    margin-left: 10px;
+    margin-top: 10px;
+    flex-direction: column;
+    border-radius: 10px;
+}
+.pic-of-sunglasses img{
+    width: 100%;
+    height: 100%;
+}
+.product-name2{
+    margin-left: 42px;
+    display: flex;
+    margin-top: -25px;
+    font-size: 19px;
+    width: 155px;
+    font-family: 'Times New Roman', Times, serif;  
+}
+.pic-of-sunglasses2{
+    display: flex;
+    width: 25px;
+    height: 30px;
+    margin-left: 20px;
+    /* border-radius: 60px; */
+    margin-top: -15px;
+    flex-direction: column;   
+}
+.pic-of-sunglasses2 img{
+    border-radius: 80px;
+    width: 100%;
+    height: 100%;  
+}
+.product-name3{
+    margin-left: 42px;
+    display: flex;
+    margin-top: -27px;
+    font-size: 19px;
+    width: 155px;
+    font-family: 'Times New Roman', Times, serif;  
+}
+.pic-of-sunglasses3{
+    display: flex;
+    width: 25px;
+    height: 30px;
+    margin-left: 20px;
+    margin-top: 5px;
+    flex-direction: column;   
+}
+.pic-of-sunglasses3 img{
+    width: 100%;
+    height: 100%;  
+    border-radius: 80px;
+}
+.product-name4{
+    margin-left: 42px;
+    display: flex;
+    margin-top: -27px;
+    font-size: 19px;
+    width: 167px;
+    font-family: 'Times New Roman', Times, serif;  
+}
+.pic-of-sunglasses4{
+    display: flex;
+    width: 25px;
+    height: 30px;
+    margin-left: 20px;
+    margin-top: 5px;
+    flex-direction: column;   
+}
+.pic-of-sunglasses4 img{
+    width: 100%;
+    height: 100%;  
+}
+.product-name5{
+    margin-left: 42px;
+    display: flex;
+    margin-top: -20px;
+    font-size: 19px;
+    width: 167px;
+    font-family: 'Times New Roman', Times, serif;  
+}
+.pic-of-sunglasses5{
+    display: flex;
+    width: 25px;
+    height: 30px;
+    margin-left: 20px;
+    margin-top: 5px;
+    flex-direction: column;   
+}
+.pic-of-sunglasses5 img{
+    width: 100%;
+    height: 100%;  
+}
+.product-name6{
+    margin-left: 42px;
+    display: flex;
+    margin-top: -25px;
+    font-size: 19px;
+    width: 190px;
+    font-family: 'Times New Roman', Times, serif;  
+}
+.pic-of-sunglasses6{
+    display: flex;
+    width: 25px;
+    height: 30px;
+    margin-left: 20px;
+    margin-top: 5px;
+    flex-direction: column;   
+}
+.pic-of-sunglasses6 img{
+    width: 100%;
+    height: 100%;  
+    border-radius: 50px;
+}
+.product-name7{
+    margin-left: 42px;
+    display: flex;
+    margin-top: -22px;
+    font-size: 19px;
+    width: 190px;
+    font-family: 'Times New Roman', Times, serif;  
+}
+.pic-of-sunglasses7{
+    display: flex;
+    width: 25px;
+    height: 30px;
+    margin-left: 20px;
+    margin-top: 5px;
+    flex-direction: column;   
+}
+.pic-of-sunglasses7 img{
+    width: 100%;
+    height: 100%;  
+    border-radius: 50px;
+}
+.product-price{
+    margin-left: 275px;
+    display: flex;
+    margin-top: -262px;
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;   
+    flex-direction: row;
+    display: flex;
+    color: red;
+}
+.product-price2{
+    color: red;
+    margin-left: 275px;
+    display: flex;
+    margin-top: 18px;
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;   
+}
